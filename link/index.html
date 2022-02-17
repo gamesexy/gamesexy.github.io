@@ -1,0 +1,894 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>示例 | 爱上梧桐花</title><meta name="keywords" content="hexo,butterfly,jerryc,demo,hexo-butterfly,hexo-theme-butterfly"><meta name="author" content="邢龙"><meta name="copyright" content="邢龙"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="如果你想把自己的網頁也新增到示例頁面，請   確保你使用 Butterfly 主題 點擊這個鏈接 按要求新增內容 點擊下面的 Commit changes ，合併到 butterfly.js.org 倉庫">
+<meta property="og:type" content="website">
+<meta property="og:title" content="示例">
+<meta property="og:url" content="https://butterfly.js.org/link/">
+<meta property="og:site_name" content="爱上梧桐花">
+<meta property="og:description" content="如果你想把自己的網頁也新增到示例頁面，請   確保你使用 Butterfly 主題 點擊這個鏈接 按要求新增內容 點擊下面的 Commit changes ，合併到 butterfly.js.org 倉庫">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png">
+<meta property="article:published_time" content="2018-06-07T14:17:49.000Z">
+<meta property="article:modified_time" content="2018-06-07T14:17:49.000Z">
+<meta property="article:author" content="邢龙">
+<meta property="article:tag" content="hexo,butterfly,jerryc,demo,hexo-butterfly,hexo-theme-butterfly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-2.png"><link rel="shortcut icon" href="/img/logo.jpg"><link rel="canonical" href="https://butterfly.js.org/link/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="NdIUXAOVyGnnBhcrip0ksCawbdAzT0hlBZDE9u4jx6k"/><meta name="msvalidate.01" content="567E47D75E8DCF1282B9623AD914701E"/><meta name="baidu-site-verification" content="code-pE5rnuxcfD"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":150,"languages":{"author":"作者: 邢龙","link":"链接: ","source":"来源: 爱上梧桐花","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '示例',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2018-06-07 22:17:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://npm.elemecdn.com/animate.css@4.1.1/animate.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css"><link rel="alternate" href="/atom.xml" title="爱上梧桐花" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/logo.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-compass"></i><span> 目錄</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 歸檔</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa fa-heartbeat"></i><span> 娛樂</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 圖庫</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 電影</span></a></li><li><a class="site-page child" href="/talking/"><i class="fa-fw fas fa-cubes"></i><span> 自言自語</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-thumbs-up"></i><span> 示例</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/friends.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">爱上梧桐花</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fas fa-compass"></i><span> 目錄</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 歸檔</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw fa fa-heartbeat"></i><span> 娛樂</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 圖庫</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 電影</span></a></li><li><a class="site-page child" href="/talking/"><i class="fa-fw fas fa-cubes"></i><span> 自言自語</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-thumbs-up"></i><span> 示例</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">示例</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><div class="flink"><h2 id="網站"><a href="#網站" class="headerlink" title="網站"></a><i class="fas fa-check-double" style="color: #FF6666;padding-right: 0.4rem"></i>網站</h2><div class="flink-desc"><span style="font-style: italic;">重要的事情説一遍</span></div> <div class="flink-list">
+  <div class="flink-list-item">
+    <a href="https://crazywong.com/" rel="external nofollow noreferrer" title="MYW" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://crazywong.com/img/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="MYW" />
+      </div>
+      <div class="flink-item-name">MYW</div> 
+      <div class="flink-item-desc" title="今日事,今日畢">今日事,今日畢</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://hexo.io/zh-tw/" rel="external nofollow noreferrer" title="Hexo" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Hexo" />
+      </div>
+      <div class="flink-item-name">Hexo</div> 
+      <div class="flink-item-desc" title="快速、簡單且強大的網誌框架">快速、簡單且強大的網誌框架</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://github.com/jerryc127/hexo-theme-butterfly" rel="external nofollow noreferrer" title="Butterfly" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Butterfly" />
+      </div>
+      <div class="flink-item-name">Butterfly</div> 
+      <div class="flink-item-desc" title="🦋 A Hexo Theme: Butterfly">🦋 A Hexo Theme: Butterfly</div>
+    </a>
+  </div></div><h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><i class="fas fa-fan" style="color:#00cccc;padding-right: 0.4rem"></i>示例</h2><div class="flink-desc"><span style="font-style: italic;">最可愛的朋友在這裏</span></div> <div class="flink-list">
+  <div class="flink-list-item">
+    <a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/76" rel="external nofollow noreferrer" title="更多示例" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/more-butterfly-demo-avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="更多示例" />
+      </div>
+      <div class="flink-item-name">更多示例</div> 
+      <div class="flink-item-desc" title="更多使用 Butterfly 的網站">更多使用 Butterfly 的網站</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://akioi.eu.org/" rel="external nofollow noreferrer" title="Serok's Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/SerokSSR/cdn2/k16.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Serok's Blog" />
+      </div>
+      <div class="flink-item-name">Serok's Blog</div> 
+      <div class="flink-item-desc" title="此宵风醉月舞萤">此宵风醉月舞萤</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.nesxc.com" rel="external nofollow noreferrer" title="Nescx" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.nesxc.com/img/tx.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Nescx" />
+      </div>
+      <div class="flink-item-name">Nescx</div> 
+      <div class="flink-item-desc" title="青石落晚巷 故人未还乡">青石落晚巷 故人未还乡</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://ifibe.com" rel="external nofollow noreferrer" title="米奇妙妙屋" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://ifibe.com/img/hotlink-ok/avatar.webp" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="米奇妙妙屋" />
+      </div>
+      <div class="flink-item-name">米奇妙妙屋</div> 
+      <div class="flink-item-desc" title="逐风揽月登九天 踏浪擒龙游四海">逐风揽月登九天 踏浪擒龙游四海</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://imszz.com" rel="external nofollow noreferrer" title="hermoso" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/weilain/cdn-photo/Photo/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="hermoso" />
+      </div>
+      <div class="flink-item-name">hermoso</div> 
+      <div class="flink-item-desc" title="时间如一捧流沙,缓缓的在指间流尽">时间如一捧流沙,缓缓的在指间流尽</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.keepdai.cn/" rel="external nofollow noreferrer" title="呆逼博客" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/Daibi-mua/jsdelivr@1.3/logo.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="呆逼博客" />
+      </div>
+      <div class="flink-item-name">呆逼博客</div> 
+      <div class="flink-item-desc" title="兴趣使然">兴趣使然</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://akilar.top/" rel="external nofollow noreferrer" title="Akilarの糖果屋" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://akilar.top/img/siteicon/favicon.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Akilarの糖果屋" />
+      </div>
+      <div class="flink-item-name">Akilarの糖果屋</div> 
+      <div class="flink-item-desc" title="期待您的光临！">期待您的光临！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.imzjw.cn/" rel="external nofollow noreferrer" title="小嘉的部落格" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="//cdn.jsdelivr.net/npm/nanshen/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="小嘉的部落格" />
+      </div>
+      <div class="flink-item-name">小嘉的部落格</div> 
+      <div class="flink-item-desc" title="好记性不如烂笔头">好记性不如烂笔头</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://aymetic.com" rel="external nofollow noreferrer" title="Aymeticの小窝" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/Aymetic/site-source/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Aymeticの小窝" />
+      </div>
+      <div class="flink-item-name">Aymeticの小窝</div> 
+      <div class="flink-item-desc" title="从兴趣出发">从兴趣出发</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.zhheo.com/" rel="external nofollow noreferrer" title="Heo" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blog.zhheo.com/img/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Heo" />
+      </div>
+      <div class="flink-item-name">Heo</div> 
+      <div class="flink-item-desc" title="爱折腾的设计师">爱折腾的设计师</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://cxvh.com" rel="external nofollow noreferrer" title="BARAN的小站🔥🔥🔥" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="BARAN的小站🔥🔥🔥" />
+      </div>
+      <div class="flink-item-name">BARAN的小站🔥🔥🔥</div> 
+      <div class="flink-item-desc" title="指尖跳动留下足迹.">指尖跳动留下足迹.</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://lzxjack.top/" rel="external nofollow noreferrer" title="飞鸟" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://jack-img.oss-cn-hangzhou.aliyuncs.com/img/20201204121004.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="飞鸟" />
+      </div>
+      <div class="flink-item-name">飞鸟</div> 
+      <div class="flink-item-desc" title="一只平凡的鸟罢了">一只平凡的鸟罢了</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://cmwen.cn" rel="external nofollow noreferrer" title="不归路" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="http://q.qlogo.cn/headimg_dl?dst_uin=1914788728&spec=640&img_type=jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="不归路" />
+      </div>
+      <div class="flink-item-name">不归路</div> 
+      <div class="flink-item-desc" title="踏上一条不归路">踏上一条不归路</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.zhangsifan.com" rel="external nofollow noreferrer" title="JCAlways" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2019/10/13/2a6ve3ZdW8TPCNY.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="JCAlways" />
+      </div>
+      <div class="flink-item-name">JCAlways</div> 
+      <div class="flink-item-desc" title="记录前端知识">记录前端知识</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://fungit.org/" rel="external nofollow noreferrer" title="Fungit" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://fungit.org/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Fungit" />
+      </div>
+      <div class="flink-item-name">Fungit</div> 
+      <div class="flink-item-desc" title="木秀于林 风必摧之">木秀于林 风必摧之</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://y-jinhao.github.io/" rel="external nofollow noreferrer" title="白醭飙尘" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/Y-JINHAO/resources/img/avator1.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="白醭飙尘" />
+      </div>
+      <div class="flink-item-name">白醭飙尘</div> 
+      <div class="flink-item-desc" title="无疾而终的困倦变成苋红的太阳的血瓷砖石仰慕的书架上呕吐的诗集">无疾而终的困倦变成苋红的太阳的血瓷砖石仰慕的书架上呕吐的诗集</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://tzy1997.com/" rel="external nofollow noreferrer" title="Ethan.Tzy" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/avater.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Ethan.Tzy" />
+      </div>
+      <div class="flink-item-name">Ethan.Tzy</div> 
+      <div class="flink-item-desc" title="学习与交流的乐园，希望能和你成为好朋友。">学习与交流的乐园，希望能和你成为好朋友。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://CheeseburgerIM.github.io/" rel="external nofollow noreferrer" title="CheeseburgerIM" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://gitee.com/CheeseburgerIM/imagehosting/raw/master/Image/Home/Avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="CheeseburgerIM" />
+      </div>
+      <div class="flink-item-name">CheeseburgerIM</div> 
+      <div class="flink-item-desc" title="IMF,I’ve got a lot to learn.">IMF,I’ve got a lot to learn.</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.hwheng.top/" rel="external nofollow noreferrer" title="没有睡醒" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://avatars.githubusercontent.com/u/71166703?s=96&v=4" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="没有睡醒" />
+      </div>
+      <div class="flink-item-name">没有睡醒</div> 
+      <div class="flink-item-desc" title="今日事,今日畢">今日事,今日畢</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://zkpeace.com/" rel="external nofollow noreferrer" title="反派" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://zkpeace.com/blog/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="反派" />
+      </div>
+      <div class="flink-item-name">反派</div> 
+      <div class="flink-item-desc" title="走出自己的傲慢，承认自己的局限。">走出自己的傲慢，承认自己的局限。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://sunguoqi.com/" rel="external nofollow noreferrer" title="sunshine" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://i.loli.net/2021/06/08/CfvzqNFHag8G3bi.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="sunshine" />
+      </div>
+      <div class="flink-item-name">sunshine</div> 
+      <div class="flink-item-desc" title="I am your sunshine">I am your sunshine</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://zhouhua.vercel.app/" rel="external nofollow noreferrer" title="WindSky" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/windskyxb/img/user.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="WindSky" />
+      </div>
+      <div class="flink-item-name">WindSky</div> 
+      <div class="flink-item-desc" title="我们必将知道，我们即将知道。">我们必将知道，我们即将知道。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.hin.cool" rel="external nofollow noreferrer" title="W4J1e's blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn2.hin.cool/pic/my/dl3.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="W4J1e's blog" />
+      </div>
+      <div class="flink-item-name">W4J1e's blog</div> 
+      <div class="flink-item-desc" title="偏爱不务正业">偏爱不务正业</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://muspace.top" rel="external nofollow noreferrer" title="沐の空间" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://muspace.top/img/favicon.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="沐の空间" />
+      </div>
+      <div class="flink-item-name">沐の空间</div> 
+      <div class="flink-item-desc" title="缘，妙不可言">缘，妙不可言</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.xujiayao.top/" rel="external nofollow noreferrer" title="Xujiayao's Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blog.xujiayao.top/file/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Xujiayao's Blog" />
+      </div>
+      <div class="flink-item-name">Xujiayao's Blog</div> 
+      <div class="flink-item-desc" title="没有个性，如何签名？">没有个性，如何签名？</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://qushao.icu" rel="external nofollow noreferrer" title="萌萌哒的屈少" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://gitee.com/qu-shao/blogImage/raw/master/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="萌萌哒的屈少" />
+      </div>
+      <div class="flink-item-name">萌萌哒的屈少</div> 
+      <div class="flink-item-desc" title="乾坤未定，你我皆是黑马">乾坤未定，你我皆是黑马</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.kawashiros.club/" rel="external nofollow noreferrer" title="冻符「Minus-K」" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.kawashiros.club/resources/avatar.webp" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="冻符「Minus-K」" />
+      </div>
+      <div class="flink-item-name">冻符「Minus-K」</div> 
+      <div class="flink-item-desc" title="(S)He Has Gone.">(S)He Has Gone.</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.eurkon.com" rel="external nofollow noreferrer" title="Eurkon" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://blog.eurkon.com/images/user/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Eurkon" />
+      </div>
+      <div class="flink-item-name">Eurkon</div> 
+      <div class="flink-item-desc" title="不只是代码的搬运工">不只是代码的搬运工</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://noionion.top/" rel="external nofollow noreferrer" title="贰猹的小窝" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="贰猹的小窝" />
+      </div>
+      <div class="flink-item-name">贰猹的小窝</div> 
+      <div class="flink-item-desc" title="用这生命中的每一秒，给自己一个不后悔的未来">用这生命中的每一秒，给自己一个不后悔的未来</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://yumozhi.com" rel="external nofollow noreferrer" title="羽墨志" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://yumozhi.com/img/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="羽墨志" />
+      </div>
+      <div class="flink-item-name">羽墨志</div> 
+      <div class="flink-item-desc" title="凡是过往，皆为序章！">凡是过往，皆为序章！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://freeaas.com" rel="external nofollow noreferrer" title="Jasonの小窝" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.freeaas.com/a/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Jasonの小窝" />
+      </div>
+      <div class="flink-item-name">Jasonの小窝</div> 
+      <div class="flink-item-desc" title="因为热爱，所以执着">因为热爱，所以执着</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://guole.fun/" rel="external nofollow noreferrer" title="guole's Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.guole.fun/logo/guole.fun.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="guole's Blog" />
+      </div>
+      <div class="flink-item-name">guole's Blog</div> 
+      <div class="flink-item-desc" title="保持理智，相信明天。">保持理智，相信明天。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://leidl.top" rel="external nofollow noreferrer" title="柠檬大师的空间站" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://leidl.top/img/favicon.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="柠檬大师的空间站" />
+      </div>
+      <div class="flink-item-name">柠檬大师的空间站</div> 
+      <div class="flink-item-desc" title="一个不善言辞的Java攻城狮">一个不善言辞的Java攻城狮</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://layne666.cn" rel="external nofollow noreferrer" title="Layne666 - Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://layne666.cn/images/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Layne666 - Blog" />
+      </div>
+      <div class="flink-item-name">Layne666 - Blog</div> 
+      <div class="flink-item-desc" title="不多说了，诸位，拔剑吧！">不多说了，诸位，拔剑吧！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://lastknightcoder.github.io/hexo-blog/" rel="external nofollow noreferrer" title="LastKnightCoder - Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/LastKnightCoder/ImgHosting3@master/avatar.3fylnrbbo8m0.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="LastKnightCoder - Blog" />
+      </div>
+      <div class="flink-item-name">LastKnightCoder - Blog</div> 
+      <div class="flink-item-desc" title="人生天地间，忽如远行客。">人生天地间，忽如远行客。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://xingchuangyang.gitee.io/" rel="external nofollow noreferrer" title="猿来是你 - Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.chuangyang.xin/519b2a7e3594fb98f7d6842dd6d71162.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="猿来是你 - Blog" />
+      </div>
+      <div class="flink-item-name">猿来是你 - Blog</div> 
+      <div class="flink-item-desc" title="莫等闲，百了少年头。">莫等闲，百了少年头。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://yk-ddm.github.io" rel="external nofollow noreferrer" title="yk-ddm - Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://yk-ddm.github.io/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="yk-ddm - Blog" />
+      </div>
+      <div class="flink-item-name">yk-ddm - Blog</div> 
+      <div class="flink-item-desc" title="少想, 多练！">少想, 多练！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.throwx.cn" rel="external nofollow noreferrer" title="Throwable" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/mine/doge_avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Throwable" />
+      </div>
+      <div class="flink-item-name">Throwable</div> 
+      <div class="flink-item-desc" title="Java后端开发、基础架构、并发编程">Java后端开发、基础架构、并发编程</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://leekinghou-github-io.vercel.app/" rel="external nofollow noreferrer" title="lijinhao's blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://files.catbox.moe/6g3wus.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="lijinhao's blog" />
+      </div>
+      <div class="flink-item-name">lijinhao's blog</div> 
+      <div class="flink-item-desc" title="今日事今日毕">今日事今日毕</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://jokerdig.com" rel="external nofollow noreferrer" title="Hey,Joker - Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Hey,Joker - Blog" />
+      </div>
+      <div class="flink-item-name">Hey,Joker - Blog</div> 
+      <div class="flink-item-desc" title="一个代码小白的成长。">一个代码小白的成长。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://rockjesus.cn" rel="external nofollow noreferrer" title="RockJesus's blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.rockjesus.cn/img/black.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="RockJesus's blog" />
+      </div>
+      <div class="flink-item-name">RockJesus's blog</div> 
+      <div class="flink-item-desc" title="外星人👽黑苹果🍎">外星人👽黑苹果🍎</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://fivefirex.github.io/" rel="external nofollow noreferrer" title="FiveFire的博客" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/fivefirex/cdn/avatar.jpeg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="FiveFire的博客" />
+      </div>
+      <div class="flink-item-name">FiveFire的博客</div> 
+      <div class="flink-item-desc" title="啥也不会的菜鸟，开发编程">啥也不会的菜鸟，开发编程</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://huguoyang.cn" rel="external nofollow noreferrer" title="辛巳流火的Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://gitee.com/hgy-xslh/my_img/raw/master/img/logo.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="辛巳流火的Blog" />
+      </div>
+      <div class="flink-item-name">辛巳流火的Blog</div> 
+      <div class="flink-item-desc" title="一个不爱学习的小小白">一个不爱学习的小小白</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://mrzefr.cn" rel="external nofollow noreferrer" title="雪中的博客" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/SYSTEMWindows11/CDN@main/Doraemon.ico" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="雪中的博客" />
+      </div>
+      <div class="flink-item-name">雪中的博客</div> 
+      <div class="flink-item-desc" title="Hello World">Hello World</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://youngjuning.js.org" rel="external nofollow noreferrer" title="洛竹的博客" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/youngjuning/images/202109211729538.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="洛竹的博客" />
+      </div>
+      <div class="flink-item-name">洛竹的博客</div> 
+      <div class="flink-item-desc" title="怕什么真理无穷，进一寸有一寸的欢喜。">怕什么真理无穷，进一寸有一寸的欢喜。</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://coding.maylove.pub" rel="external nofollow noreferrer" title="ZkeqのCoding日志" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://p6-tt.byteimg.com/origin/user-profile/77759605e13054f68a8d54ed7c510405.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="ZkeqのCoding日志" />
+      </div>
+      <div class="flink-item-name">ZkeqのCoding日志</div> 
+      <div class="flink-item-desc" title="记录一些基础的Python, Java 语法.">记录一些基础的Python, Java 语法.</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.antmoe.com" rel="external nofollow noreferrer" title="小康博客" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/npm/kang-static@latest/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="小康博客" />
+      </div>
+      <div class="flink-item-name">小康博客</div> 
+      <div class="flink-item-desc" title="一个收藏回忆与分享技术的地方！">一个收藏回忆与分享技术的地方！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.yyyzyyyz.cn/" rel="external nofollow noreferrer" title="Black Flies" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/hiltay/imgcdn/img/202111191951780.JPG" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Black Flies" />
+      </div>
+      <div class="flink-item-name">Black Flies</div> 
+      <div class="flink-item-desc" title="When nothing goes right,just go left.">When nothing goes right,just go left.</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://coder-jason.cn" rel="external nofollow noreferrer" title="攻城狮杰森" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://coder-jason.cn/img/head.JPG" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="攻城狮杰森" />
+      </div>
+      <div class="flink-item-name">攻城狮杰森</div> 
+      <div class="flink-item-desc" title="功崇惟志，业广惟勤">功崇惟志，业广惟勤</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://blog.xmwpro.com/" rel="external nofollow noreferrer" title="Cyan Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cyan-blog.oss-cn-shenzhen.aliyuncs.com/global/avatar.jpeg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Cyan Blog" />
+      </div>
+      <div class="flink-item-name">Cyan Blog</div> 
+      <div class="flink-item-desc" title="记录学习、生活和有趣的事">记录学习、生活和有趣的事</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.midoriya.co" rel="external nofollow noreferrer" title="midoriya" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.midoriya.co/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="midoriya" />
+      </div>
+      <div class="flink-item-name">midoriya</div> 
+      <div class="flink-item-desc" title="我本将心向明月">我本将心向明月</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://renm.cc" rel="external nofollow noreferrer" title="梦の小窝" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.jsdelivr.net/gh/renmcc/renmcc@main/img/avatar2.webp" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="梦の小窝" />
+      </div>
+      <div class="flink-item-name">梦の小窝</div> 
+      <div class="flink-item-desc" title="一个收藏回忆与分享技术的地方！">一个收藏回忆与分享技术的地方！</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://buyixiao.github.io/" rel="external nofollow noreferrer" title="BuyiXiao's Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://buyixiao.github.io/img/avatar.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="BuyiXiao's Blog" />
+      </div>
+      <div class="flink-item-name">BuyiXiao's Blog</div> 
+      <div class="flink-item-desc" title="星光殷殷，其灿如言">星光殷殷，其灿如言</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://226yzy.com" rel="external nofollow noreferrer" title="星空下的YZY" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s4.ax1x.com/2021/12/11/oTDujJ.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="星空下的YZY" />
+      </div>
+      <div class="flink-item-name">星空下的YZY</div> 
+      <div class="flink-item-desc" title="记录一枚菜鸟的征程">记录一枚菜鸟的征程</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://vaycent.com" rel="external nofollow noreferrer" title="Vaycent孙维-Blog" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://vaycent.com/img/avatar.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Vaycent孙维-Blog" />
+      </div>
+      <div class="flink-item-name">Vaycent孙维-Blog</div> 
+      <div class="flink-item-desc" title="Have Hard Fun">Have Hard Fun</div>
+    </a>
+  </div>
+  <div class="flink-list-item">
+    <a href="https://www.shr05.com" rel="external nofollow noreferrer" title="Wotemo" target="_blank">
+      <div class="flink-item-icon">
+        <img class="no-lightbox" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://www.shr05.com/img/dog.jpg" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Wotemo" />
+      </div>
+      <div class="flink-item-name">Wotemo</div> 
+      <div class="flink-item-desc" title="似此星辰非昨夜，为谁风露立中宵。">似此星辰非昨夜，为谁风露立中宵。</div>
+    </a>
+  </div></div><hr>
+<p>如果你想把自己的網頁也新增到<code>示例</code>頁面，請</p>
+<blockquote>
+<ol>
+<li>確保你使用 Butterfly 主題</li>
+<li>點擊這個<a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/butterfly.js.org/edit/main/source/_data/link.yml">鏈接</a></li>
+<li>按要求新增內容</li>
+<li>點擊下面的 <code>Commit changes</code> ，合併到 butterfly.js.org 倉庫</li>
+</ol>
+</blockquote>
+</div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/logo.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">邢龙</div><div class="author-info__description">爱上梧桐花，依偎花树下；待到花开时，埋在花树下</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly"><i class="fab fa-github"></i><span>主題 GitHub</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:my@crazywong.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">如果你在使用中遇到問題，請到 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly/issues" style="color:#49b1f5">Github Issues</a> 或者 <a href="/messageboard/" style="color:#49b1f5">留言板</a> 進行反饋，你也可以加入 QQ 群（由於 QQ 群只能有 500 人，會定時清理潛水的人，不要同時申請 2 个 QQ 群）<div class="social-button"> <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" rel="external nofollow noreferrer" target="_blank">QQ 1 群 👍</a> <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=r1nK0DQz" rel="external nofollow noreferrer" target="_blank">QQ 2 群 👍</a> <a class="button--animated" href="https://t.me/bu2fly" rel="external nofollow noreferrer" target="_blank">Telegram 👍</a> </div></div></div><div class="card-widget card-docs card-categories"><div class="item-headline"><i class="fas fa-car-side"></i><span>文檔目錄</span></div><div class="item-content"></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/1539ab20/" title="这是我的第一篇文章，心情日志"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/%E5%BF%83%E6%83%85.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="这是我的第一篇文章，心情日志"/></a><div class="content"><a class="title" href="/posts/1539ab20/" title="这是我的第一篇文章，心情日志">这是我的第一篇文章，心情日志</a><time datetime="2022-02-15T11:21:11.000Z" title="发表于 2022-02-15 19:21:11">2022-02-15</time></div></div></div></div><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8919908724705274" data-ad-slot="8108145410" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/"><span class="card-category-list-name">心情日志</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%BF%83%E6%83%85/" style="font-size: 1.15em; color: rgb(169, 178, 176)">心情</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/02/"><span class="card-archive-list-date">2022年02月</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-02-14T16:00:00.000Z"></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">43</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-02-17T11:18:35.291Z"></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/friends.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 By 邢龙</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="translateLink" type="button" title="简繁转换">簡</button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@4.1.0/source/js/utils.min.js"></script><script src="https://cdn.jsdelivr.net/npm/hexo-theme-butterfly@4.1.0/source/js/main.min.js"></script><script src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly.js.org/source/selfjs/tw_cn.min.js?ver=4.1.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly.js.org/source/selfjs/localsearch.min.js?ver=4.1.0"></script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://gamesexy.github.io',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 5/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script defer src="https://cdn.jsdelivr.net/gh/graingert/wow@1.3.0/dist/wow.min.js"></script><script defer data-pjax src="/js/wow_init.js"></script><script src="https://cdn.jsdelivr.net/gh/caicheng918/CDN@4.0/res/mouse_snow.js"></script><div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/talking/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
