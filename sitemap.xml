@@ -103,7 +103,7 @@
 
   <url>
     <loc>https://butterfly.js.org/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,7 +111,7 @@
   
   <url>
     <loc>https://butterfly.js.org/tags/%E5%BF%83%E6%83%85/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -120,7 +120,7 @@
   
   <url>
     <loc>https://butterfly.js.org/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
