@@ -316,13 +316,6 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/Aplayer/</loc>
-    <lastmod>2022-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://butterfly.js.org/tags/%E6%A8%99%E7%B1%A4%E5%A4%96%E6%8E%9B/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -372,6 +365,13 @@
   </url>
   
   <url>
+    <loc>https://butterfly.js.org/tags/Aplayer/</loc>
+    <lastmod>2022-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://butterfly.js.org/tags/Footer/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -389,13 +389,6 @@
   
   <url>
     <loc>https://butterfly.js.org/categories/Thx/</loc>
-    <lastmod>2022-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://butterfly.js.org/categories/%E9%80%B2%E9%9A%8E%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -424,6 +417,13 @@
   
   <url>
     <loc>https://butterfly.js.org/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2022-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://butterfly.js.org/categories/%E9%80%B2%E9%9A%8E%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
