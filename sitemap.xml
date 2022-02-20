@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/link/</loc>
+    <loc>https://butterfly.js.org/categories/</loc>
     
     <lastmod>2018-06-07</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/categories/</loc>
+    <loc>https://butterfly.js.org/link/</loc>
     
     <lastmod>2018-06-07</lastmod>
     
@@ -128,13 +128,6 @@
 
   
   <url>
-    <loc>https://butterfly.js.org/tags/%E5%BF%83%E6%83%85/</loc>
-    <lastmod>2022-02-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://butterfly.js.org/tags/Hexo/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -143,6 +136,13 @@
   
   <url>
     <loc>https://butterfly.js.org/tags/Butterfly/</loc>
+    <lastmod>2022-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://butterfly.js.org/tags/%E5%BF%83%E6%83%85/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -158,14 +158,14 @@
 
   
   <url>
-    <loc>https://butterfly.js.org/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://butterfly.js.org/categories/Hexo/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/categories/Hexo/</loc>
+    <loc>https://butterfly.js.org/categories/%E5%BF%83%E6%83%85%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2022-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
