@@ -344,14 +344,14 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/top-img/</loc>
+    <loc>https://butterfly.js.org/tags/demo/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/demo/</loc>
+    <loc>https://butterfly.js.org/tags/top-img/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -365,14 +365,14 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/Footer/</loc>
+    <loc>https://butterfly.js.org/tags/%E5%BF%83%E6%83%85/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/%E5%BF%83%E6%83%85/</loc>
+    <loc>https://butterfly.js.org/tags/Footer/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
