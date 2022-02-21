@@ -337,14 +337,14 @@
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/demo/</loc>
+    <loc>https://butterfly.js.org/tags/Bar/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://butterfly.js.org/tags/Bar/</loc>
+    <loc>https://butterfly.js.org/tags/demo/</loc>
     <lastmod>2022-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
