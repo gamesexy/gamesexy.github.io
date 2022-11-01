@@ -2,25 +2,25 @@
 
 var backimg =[
 
-  "url(/img/bg1.JPG)",
+  "url(/img/backimg/bg1.JPG)",
 
-  "url(/img/bg2.jpg)",
+  "url(/img/backimg/bg2.jpg)",
 
-  "url(/img/bg3.jpg)",
+  "url(/img/backimg/bg3.jpg)",
 
-  "url(/img/bg4.JPG)",
+  "url(/img/backimg/bg4.JPG)",
 
-  "url(/img/bg5.jpg)",
+  "url(/img/backimg/bg5.jpg)",
 
-  "url(/img/bg6.jpg)",
+  "url(/img/backimg/bg6.jpg)",
 
-  "url(/img/bg7.JPG)",
+  "url(/img/backimg/bg7.JPG)",
 
-  "url(/img/bg8.jpg)",
+  "url(/img/backimg/bg8.jpg)",
 
-  "url(/img/bg9.jpg)",
+  "url(/img/backimg/bg9.jpg)",
 
-  "url(/img/bg10.jpg)"
+  "url(/img/backimg/bg10.jpg)"
 
 ];
 
@@ -36,25 +36,25 @@ document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
 
 var bannerimg =[
 
-  "url(/img/bg1.JPG)",
+  "url(/img/backimg/bg1.JPG)",
 
-  "url(/img/bg2.jpg)",
+  "url(/img/backimg/bg2.jpg)",
 
-  "url(/img/bg3.jpg)",
+  "url(/img/backimg/bg3.jpg)",
 
-  "url(/img/bg4.JPG)",
+  "url(/img/backimg/bg4.JPG)",
 
-  "url(/img/bg5.jpg)",
+  "url(/img/backimg/bg5.jpg)",
 
-  "url(/img/bg6.jpg)",
+  "url(/img/backimg/bg6.jpg)",
 
-  "url(/img/bg7.JPG)",
+  "url(/img/backimg/bg7.JPG)",
 
-  "url(/img/bg8.jpg)",
+  "url(/img/backimg/bg8.jpg)",
 
-  "url(/img/bg9.jpg)",
+  "url(/img/backimg/bg9.jpg)",
 
-  "url(/img/bg10.jpg)"
+  "url(/img/backimg/bg10.jpg)"
 ];
 
 //获取banner图片总数，生成随机数
